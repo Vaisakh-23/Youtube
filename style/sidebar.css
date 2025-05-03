@@ -1,0 +1,29 @@
+.Sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 70px;
+    width: 70px;
+    z-index: 1;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.sidebar-icons{
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.sidebar-icons img{
+    height: 32px;
+    margin-bottom: 4px;
+}
+
+.sidebar-icons div{
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+}
